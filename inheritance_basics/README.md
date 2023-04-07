@@ -26,3 +26,32 @@ Inheritance automatically contains Polymorphism in it in the form of Overriding.
 Overriding: This is a mechnism in which the subclass (child class) redefines the behaviours of the super class (parent class) methods.
 The signature must be same for overrriding
 ----------------
+
+Annotations
+Here, we have used @Override which is an annotation.
+Even without it the program will be compiled without an error, but annotations are very useful and sometimes important.
+
+What are Annotations?
+Annotations basically used to provide/give information to the compiler or the JVM
+
+Here, the annotation @Override tells the compiler that the following method is an Overriden method, so then the compiler checks the parent class and sees if the claim is correct then it allows
+Incase the claim to overridden method is not in the parent class then an error is returned since the claim is incorrect
+So what is the actaul use:
+ - This helps since sometimes the overridden method can contain spelling errors and since the annotation is present an eeror will be given, otherwise if not present then the compiler will treat as anyother function
+
+2 Kinds of Annotations
+1. Annotations for Compiler
+2. Annotations for JVM
+----------------
+
+
+'protected' keyword
+This is an access modifier or a visibility specifier, that is used in Inheritance
+All members of the Paremt/Super class are directly available to the Child class, since the class is partially encapsulated.
+----------------
+
+
+Members of the Parent class can be accessed to the Child class through
+1. Incase Fully Encapsulated - then through setters and getter
+2. Incase Partially Encapsulated - then directly only those members that are protected
+----------------
