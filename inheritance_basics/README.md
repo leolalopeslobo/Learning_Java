@@ -55,3 +55,22 @@ Members of the Parent class can be accessed to the Child class through
 1. Incase Fully Encapsulated - then through setters and getter
 2. Incase Partially Encapsulated - then directly only those members that are protected
 ----------------
+
+
+Constructors in Inheritance
+Constructors are **not inherited** in Java.
+
+So then how to do you access the Parent class Constructors?
+Since inorder to create the Child Class object you require the Class Constructor
+This is possible using 'super'
+
+
+**'super'** keyword
+super keyword is a reference variable that refers to immediate parent class
+and the **super()** constructor refers to the _immediate_ parent class constructor.
+
+3 uses of super:
+1. super() - it can be of 2 types -> default or parameterised -> it allows us to access immediate parent class constructors
+super is always the first statement because you construct the parent first and then child
+2.  using super you can access parent class methods -> super.(method_name)
+3.  using super you can access parent class variables -> super.(variable_name)
