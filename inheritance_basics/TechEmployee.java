@@ -13,6 +13,14 @@ public class TechEmployee extends Employee{
 	public void getBonus(){
 		System.out.println("Bonus is: "+BONUS);
 	}
+
+	//overriding
+	//redefining the behavious
+	@Override   //annotation
+	public void calculateSalary(){
+		double salary = getBasicSalary() + getBasicSalary()*84/100 + BONUS;
+		System.out.println(salary);
+	}
 }
 
 

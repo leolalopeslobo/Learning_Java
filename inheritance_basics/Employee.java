@@ -15,6 +15,10 @@ public class Employee{
 	public void getEmployee(){
 		System.out.println(eid+" "+ename+" "+basicSalary+" "+org);
 	}
+
+	public double getBasicSalary(){
+		return basicSalary;
+	}
 	
 	public void calculateSalary(){
 		double salary = basicSalary + basicSalary*84/100;
