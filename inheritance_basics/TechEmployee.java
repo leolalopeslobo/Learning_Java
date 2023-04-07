@@ -21,6 +21,11 @@ public class TechEmployee extends Employee{
 		double salary = getBasicSalary() + getBasicSalary()*84/100 + BONUS;
 		System.out.println(salary);
 	}
+
+	public void getEmployee(){
+		//System.out.println(getEId()+" "+getEName()+" "+getBasicSalary()+" "+BONUS+" "+org);
+		System.out.println(getEId()+" "+getEName()+" "+basicSalary+" "+BONUS+" "+org);
+	}
 }
 
 

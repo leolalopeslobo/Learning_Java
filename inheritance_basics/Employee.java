@@ -1,7 +1,8 @@
 public class Employee{
 	private int eid;
 	private String ename;
-	private double basicSalary;
+	//private double basicSalary;
+	protected double basicSalary; //here this basicSalary will be accessible to the child
 	static String org = "CDAC"; //static - since the organization is common for all the Employees
 
 	//creating a setter
@@ -16,6 +17,12 @@ public class Employee{
 		System.out.println(eid+" "+ename+" "+basicSalary+" "+org);
 	}
 
+	public int getEId(){
+		return eid;
+	}
+	public String getEName(){
+		return ename;
+	}
 	public double getBasicSalary(){
 		return basicSalary;
 	}
