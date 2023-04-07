@@ -1,3 +1,4 @@
+
 Constructors in Inheritance
 Instead of using of setters we can also used constructors.
 
