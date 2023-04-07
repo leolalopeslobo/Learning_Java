@@ -19,5 +19,10 @@ All non-private members from Parent Class can be inherited by Child class
 
 Properties of Inheritance
 1. Child class can define its own members
-2. Child class can redefined the behaviour of Parent class methods
+2. Child class can redefined the behaviour of Parent class methods (Polymorphism - Overriding (dynamic polymorphism))
+----------------
+
+Inheritance automatically contains Polymorphism in it in the form of Overriding.
+Overriding: This is a mechnism in which the subclass (child class) redefines the behaviours of the super class (parent class) methods.
+The signature must be same for overrriding
 ----------------
