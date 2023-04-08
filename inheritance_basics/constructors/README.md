@@ -11,3 +11,5 @@ ParentClass(){
 ChildClass(){
   super(); //this calls the parent constructor
 }
+
+Hence the super() constructor allows us to access the parent class constructor.
