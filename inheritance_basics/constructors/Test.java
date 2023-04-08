@@ -9,7 +9,7 @@ public class Test{
 		e.calculateSalary();
 		
 		System.out.println("\nTechEmployee Object");
-		TechEmployee te = new TechEmployee(846, "JIE", 100000);
+		TechEmployee te = new TechEmployee(846, "JIE", 100000, 15000);
 		te.getEmployee();
 		te.calculateSalary(); //overridden		
 	}
