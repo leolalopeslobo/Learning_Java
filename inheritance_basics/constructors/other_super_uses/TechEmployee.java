@@ -7,7 +7,7 @@ public class TechEmployee extends Employee{
 
 	//creating child members
 	private int bonus;
-	//by default all final values are static
+	String desig = "Project Engineer";
 
 	//Creating a Construct to set the values
 	public TechEmployee(int eid, String ename, double basicSalary, int bonus){
@@ -26,6 +26,8 @@ public class TechEmployee extends Employee{
 	public void getEmployee(){
 		super.getEmployee(); //calling immediate parent class methods
 		System.out.println("Bonus = "+bonus);
+		System.out.println("Designation: "+desig); //prints child desig
+		System.out.println("Designation: "+super.desig);	//prints parent desig
 	}
 }
 

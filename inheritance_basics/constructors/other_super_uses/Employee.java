@@ -3,6 +3,7 @@ public class Employee{
 	private String ename;
 	protected double basicSalary; //here this basicSalary will be accessible to the child
 	static String org = "CDAC"; //static - since the organization is common for all the Employees
+	String desig = "Analyst";
 
 	//creating a Constructor
 	public Employee(int eid, String ename, double basicSalary){
