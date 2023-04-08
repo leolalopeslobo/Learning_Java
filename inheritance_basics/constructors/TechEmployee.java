@@ -9,6 +9,11 @@ public class TechEmployee extends Employee{
 	final int BONUS = 10000; //fixed value hence final
 	//by default all final values are static
 
+	//Creating a Construct to set the values
+	public TechEmployee(int eid, String ename, double basicSalary){
+		super(eid, ename, basicSalary); //calling/referencing to the constructor of the immediate parent class
+	}
+
 	//getter
 	public void getBonus(){
 		System.out.println("Bonus is: "+BONUS);

@@ -4,12 +4,12 @@ public class Test{
 
 		System.out.println("Demostrating Overriding");
 		System.out.println("Employee Object");
-		Employee e = new Employee();
+		Employee e = new Employee(456, "HUE", 100000);
 		e.getEmployee();
 		e.calculateSalary();
 		
 		System.out.println("\nTechEmployee Object");
-		TechEmployee te = new TechEmployee();
+		TechEmployee te = new TechEmployee(846, "JIE", 100000);
 		te.getEmployee();
 		te.calculateSalary(); //overridden		
 	}

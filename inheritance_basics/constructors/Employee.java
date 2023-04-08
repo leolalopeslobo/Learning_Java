@@ -5,9 +5,6 @@ public class Employee{
 	static String org = "CDAC"; //static - since the organization is common for all the Employees
 
 	//creating a Constructor
-	public Employee(){
-		
-	}
 	public Employee(int eid, String ename, double basicSalary){
 		this.eid = eid;
 		this.ename = ename;
