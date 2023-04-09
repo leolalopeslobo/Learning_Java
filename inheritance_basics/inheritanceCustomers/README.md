@@ -2,6 +2,15 @@ Use of inheritance between Customers
 
 This can be done in 2 ways
 1. Using Setters
+
+    Customer - Parent Class
+    ClassicCustomer - Child Class
+    Customer();
+    ClassicCustomer(){
+      super();
+    }
+    
+    
 2. Using Customers
 
 
