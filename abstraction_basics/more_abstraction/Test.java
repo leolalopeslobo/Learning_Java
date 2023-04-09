@@ -6,5 +6,9 @@ class Test{
 		atm.withdraw();
 		atm.deposit();
 		atm.display();
+		//atm.msg(); //error - since its child specific method
+		//CE: error obtained says it cannot find symbol. Hence we require a Bank reference. (i.e. Parent reference and not Child reference)
+		Bank bank = new Bank(3.5,10);
+		bank.msg();
 	}
 }

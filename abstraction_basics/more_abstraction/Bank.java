@@ -15,4 +15,8 @@ public class Bank extends ATM{
 		System.out.println("I'm XYZ Bank");
 		super.display();
 	}
+
+	public void msg(){
+		System.out.println("This is a message from the Bank");
+	}
 }

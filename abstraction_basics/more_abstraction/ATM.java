@@ -3,6 +3,7 @@ abstract public class ATM{
 	private double interest;
 	private int cashback;
 
+	//this constructor helps us access/construct the data
 	public ATM(double interest, int cashback){
 		this.interest = interest;
 		this.cashback = cashback;
