@@ -36,6 +36,7 @@ Employee and Address (Employee has an address) <br>
 Customer and Address ( "" ) <br> 
 Department and Teacher (That means that the Department has Teachers) <br>
 University and Department (This means that the university has departments) <br>
+Here 'Dependency Injection' comes into play and that can be seen in Spring.
 <br><br><br>
 
 <h3>TYPE III: 'Realization' Relationship</h3> <br>
