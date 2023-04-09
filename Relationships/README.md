@@ -14,7 +14,6 @@ This relationship exists amoung similar components. Eg: Amoung classes <br>
 Eg: <br>
 1. Employee and TechEmployee 
 2. Customer and ClassicClassic Cutomer
-<br>
 These are General and Specialised classes that means that the TechEmployee is a specialized class of the general Employee class.
 <br><br><br>
 
@@ -36,9 +35,7 @@ Employee and Address (Employee has an address) <br>
 Customer and Address ( "" ) <br> 
 Department and Teacher (That means that the Department has Teachers) <br>
 University and Department (This means that the university has departments) <br>
-<br><br><br><br>
-
-
+<br><br><br>
 
 TYPE III: 'Has A' or 'Realization' Relationship <br>
 This relationship exists amoung different components. Eg: Class and Interface or Class and Abstract Class <br>
