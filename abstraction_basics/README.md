@@ -83,6 +83,7 @@ abstract class X{ <br>
 <br><br><br><br>
 
 Questions:
-What is loose coupling?
+What is loose coupling? <br>
+Less dependencies. For Example: Say for ATM, SBI implements in it's own way, HDFC implements in it's own way, ICICI implements in it's own way, they are all completely different implementations and do not depend on each other. <br>
 What is tight cohesion?
 Why do we have interfaces when 100% abstraction is possible using Abstract Classes also?
