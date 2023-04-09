@@ -20,6 +20,7 @@ These are General and Specialised classes that means that the TechEmployee is a 
 
 <h3>TYPE II: 'Has A' or 'Association' Relationship</h3> <br>
 This type of relationship is **structural relationship** meaning say in a room there is a fan or the laptop and me, this is structural relationship no sematic relationship <br>
+This is just a part of the system relation. <br>
 This relationship exists amoung similar components. Eg: Amoung classes <br><br>
 
 Association has 2 forms: <br>
