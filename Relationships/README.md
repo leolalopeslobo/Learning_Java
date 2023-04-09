@@ -1,5 +1,5 @@
-When we have 2 classes
-say,
+When we have 2 classes <br>
+say, \n
 A {
 
 }
