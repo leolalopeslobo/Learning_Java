@@ -37,6 +37,6 @@ Department and Teacher (That means that the Department has Teachers) <br>
 University and Department (This means that the university has departments) <br>
 <br><br><br>
 
-<h3>TYPE III: 'Has A' or 'Realization' Relationship</h3> <br>
+<h3>TYPE III: 'Realization' Relationship</h3> <br>
 This relationship exists amoung different components. Eg: Class and Interface or Class and Abstract Class <br>
 Abstraction follows realization relationship <br>
