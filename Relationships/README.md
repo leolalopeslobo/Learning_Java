@@ -1,18 +1,18 @@
 When we have 2 classes <br>
-say, \n
-A {
-
+say, <br>
+A { <br>
+<br>
+} <br>
+and <br>
+B { <br>
+<br>
 }
-and
-B {
-
-}
-TYPE I: 'Is A' or 'Generalization by Specialization' Relationship
-This type of relationship is **semantic relationship** meaning some kind of logic
-Inheritance is an **is a** relationship or **generalization by specialization** relationship
-This relationship exists amoung similar components. Eg: Amoung classes
-Eg: 
-1. Employee and TechEmployee
+TYPE I: 'Is A' or 'Generalization by Specialization' Relationship <br>
+This type of relationship is **semantic relationship** meaning some kind of logic <br>
+Inheritance is an **is a** relationship or **generalization by specialization** relationship <br>
+This relationship exists amoung similar components. Eg: Amoung classes <br>
+Eg: <br>
+1. Employee and TechEmployee 
 2. Customer and ClassicClassic Cutomer
 
 These are General and Specialised classes that means that the TechEmployee is a specialized class of the general Employee class.
