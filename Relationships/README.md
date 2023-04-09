@@ -7,7 +7,7 @@ and <br>
 B { <br>
 <br>
 } <br>
-TYPE I: 'Is A' or 'Generalization by Specialization' Relationship <br>
+<h3>TYPE I: 'Is A' or 'Generalization by Specialization' Relationship</h3> <br>
 This type of relationship is **semantic relationship** meaning some kind of logic <br>
 Inheritance is an **is a** relationship or **generalization by specialization** relationship <br>
 This relationship exists amoung similar components. Eg: Amoung classes <br>
@@ -18,7 +18,7 @@ These are General and Specialised classes that means that the TechEmployee is a 
 <br><br><br>
 
 
-TYPE II: 'Has A' or 'Association' Relationship <br>
+<h3>TYPE II: 'Has A' or 'Association' Relationship</h3> <br>
 This type of relationship is **structural relationship** meaning say in a room there is a fan or the laptop and me, this is structural relationship no sematic relationship <br>
 This relationship exists amoung similar components. Eg: Amoung classes <br><br>
 
@@ -37,6 +37,6 @@ Department and Teacher (That means that the Department has Teachers) <br>
 University and Department (This means that the university has departments) <br>
 <br><br><br>
 
-TYPE III: 'Has A' or 'Realization' Relationship <br>
+<h3>TYPE III: 'Has A' or 'Realization' Relationship</h3> <br>
 This relationship exists amoung different components. Eg: Class and Interface or Class and Abstract Class <br>
 Abstraction follows realization relationship <br>
