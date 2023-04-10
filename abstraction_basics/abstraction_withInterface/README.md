@@ -31,3 +31,16 @@ They contain all abstract methods, and data that are constant is allowed. All th
 4. There should exists a class that **implements** interface.
 All the methods must be provided with implementations
 5. If the class fails to implement any of the methods then it should become abstract.
+
+<br>
+class Y implements X{ <br>
+ // <br>
+ }
+if the class fails to provide implemetation for all (any one of) the methods then, it must become abstract
+<b>
+This is relationship between class Y and inteface X is called 'Realization' Relationship and also it is between two different components.
+
+
+<br><br>
+- Interfaces will extend each other
+- Multiple Inheritance is possible with inheritance
