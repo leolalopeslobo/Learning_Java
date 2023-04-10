@@ -25,5 +25,5 @@ Say A extends Objects and B extends Object and C extends A, B <br>
    }
    
    
-   A interface that contains only one method is called a **'Functional Interface'**
+   A interface that contains only one method is called a **'Functional Interface'** <br>
    There is an Annotation called **@FunctionalInterface**
