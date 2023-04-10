@@ -1,4 +1,4 @@
-<h2>Marked and Tagged Interfaces</h2>
+<h2>Marked or Tagged Interfaces</h2>
 Cloneable, Serializable
 Cloneable is required to clone an object
 Serializable is required to serialize an object
