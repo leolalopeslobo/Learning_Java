@@ -17,3 +17,11 @@ public interface Serializable{ <br>
  }
  
  Refer to this video: https://www.youtube.com/watch?v=enFvv2q7IAY&t=1s
+ 
+ 
+ <br><br>
+ These interfaces give useful information to the JVM
+ 
+ 
+ java.lang.Cloneable
+ java.lang.Serializable
