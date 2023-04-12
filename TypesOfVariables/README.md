@@ -29,5 +29,11 @@ Instance / Object / Non-Static variable: If you **decalare** a variable **within
 
 Static / Class variables: If you **decalare** a variable **within a class but outside of method or constructor and they are defined as static**, these are static variables.
 Whenever you find something **common for a whole class** make it as a **static/class** variable.
+static variables get allocated during the class loading time
 
 Local variable: If you **decalare** a variable **within a class but inside of method or constructor**, these are local variables.
+The scope of these variables are restricted to the method area/block only
+
+
+What is the primary role of a Constructor?
+Its duty/role is to construct/initialize the instance members of the class.
