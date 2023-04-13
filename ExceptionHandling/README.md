@@ -89,10 +89,10 @@ the 'o=x/y' is kept inside the try block because it has the potential to cause a
 
 
 <h4>Handling Multiple Exceptions</h4>
-Note: Even though a program has the potential to generate many exceptions, **only one** exception will occur
-Even though you write n number of catch blocks only one catch block is executed and it comes out of that try block
-I. by specifying each exception using multiple catch statements (multiple catch)
-Rule: Exceptions must be ordered from most specific to most Generic and no vice versa when multiple catch statements are present
-II. by directly using the Exception class - since its the super class of all Exceptions (SMARTER)
-Here 'Upcasting principle' works, i.e. parents can refer to their child objects and hence any of the Child Exceptions Objects can caught with the Parent Reference 
-III. From Java 1.7 onwards we have **multi-catch** block, that means in a single catch expression we can write multiple exceptions using the logical OR operator (|)
+Note: Even though a program has the potential to generate many exceptions, **only one** exception will occur <br>
+Even though you write n number of catch blocks only one catch block is executed and it comes out of that try block <br>
+I. by specifying each exception using multiple catch statements (multiple catch) <br>
+Rule: Exceptions must be ordered from most specific to most Generic and no vice versa when multiple catch statements are present <br>
+II. by directly using the Exception class - since its the super class of all Exceptions (SMARTER) <br>
+Here 'Upcasting principle' works, i.e. parents can refer to their child objects and hence any of the Child Exceptions Objects can caught with the Parent Reference <br>
+III. From Java 1.7 onwards we have **multi-catch** block, that means in a single catch expression we can write multiple exceptions using the logical OR operator (|) <br>
