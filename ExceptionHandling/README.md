@@ -88,3 +88,6 @@ the 'o=x/y' is kept inside the try block because it has the potential to cause a
 
 
 
+<h4>Handling Multiple Exceptions</h4>
+Note: Even though a program has the potential to generate many exceptions, **only one** exception will occur
+I. by specifying each exception using multiple catch statements
