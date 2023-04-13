@@ -71,6 +71,8 @@ Therefore 3 blocks and 2 statements
 - try must be followed by a catch, if catch is not there too then at least it should be followed by a finally block.
 You can have the 3 too in the following order try -> catch -> finally. (you should not add any code in betweeen them)
 
+'catch' () block:
+The main function of the catch block is to catch the exception object thrown by the try block (exception) and assign it to a reference type and then accordingly handle the exception inorder to proceed with the normal flow of execution.
 
 try-catch block
 try{
