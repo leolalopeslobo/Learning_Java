@@ -96,3 +96,12 @@ Rule: Exceptions must be ordered from most specific to most Generic and no vice 
 II. by directly using the Exception class - since its the super class of all Exceptions (SMARTER) <br>
 Here 'Upcasting principle' works, i.e. parents can refer to their child objects and hence any of the Child Exceptions Objects can caught with the Parent Reference <br>
 III. From Java 1.7 onwards we have **multi-catch** block, that means in a single catch expression we can write multiple exceptions using the logical OR operator (|) <br>
+
+
+ArithmeticException, NullPointerException, ArrayOutOfBoundsException - all are in java.lang package
+InputMismatchException - is in java.util package
+
+
+<h4>Multiple and Nested Try Block</h4>
+Remember that minumum number of catches need to be equal to the number of try blocks, they can be more but the least that they can be is equal to the number of try blocks
+If not then I guess finally has to be present otherwise the try cannot exists since it will check of potential exceptions but then do not have a specified mechnism to to handle the exception.
