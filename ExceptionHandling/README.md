@@ -118,3 +118,41 @@ If not then I guess finally has to be present otherwise the try cannot exists si
 
 How to identify program crash?
 When we see **Exception in thread "main" ......(Exception type).....**
+
+
+
+
+What is the purpose of the finally block?
+This is so that when the system crashes, and at least before that all important clean up code can be executed so all important things are taken care of, like all resources like the file readers and writers, network sockets, database connections which are opened can be closed so that security of the system is maintained. This way no one is able to penetrate into your database and network through a socket since it won’t be open, no one is allowed to make use of your readers and writers. Provides security! Even if it doesn't crash still security is maintained and all these clean code runs in order to close all possibly open connections.
+
+
+<h2>throw and throws</h2>
+THROW:
+throw is used to throw an exception and this happens implicitly for all predefined exceptions
+Syntax: throw new (exception) - this is done automatically
+and for user-defined the exception must be thrown explicitly
+Syntax: throw new (user-defined exception) - this must be done by the programmer.
+
+
+THROWS:
+Here a **methods** throw and 'throws' is the keyword to declare exception classes
+
+
+Difference between throw and throws:
+throw: throw exception objects
+throws: throws is used to declare exception classes, they have the capability to throw multiple objects. By using throw keywords we declare checked exceptions only, since compiler wants them. Unchecked exceptions won't be declared, since the compiler doesn't check for them, whereas the compiler looks for checked exceptions and they cannot be found, hence they are needed to be declared and we are forced to declare.
+
+
+
+
+List of Exceptions:
+Checked or Compile-time Exceptions:
+
+Unchecked or Runtime Exceptions:
+1. ArrayOutOfBoundsException
+
+
+
+
+
+<h2>How To Create User-Defined Exceptions</h2>
