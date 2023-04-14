@@ -148,3 +148,42 @@ Remember, the start index is always included and the end index is always exclude
 
 s.substring(2); //LLO -> starts from the start index and goes upto the end of the string
 s.substring(1,4); //ELL
+
+
+**String s = 20+10+"java"+70;   //30java70**
+**String s = 20+"java"+10+70;   //20java1070**
+
+<h6>Some more important string methods</h6>
+toUpperCase()
+toLowerCase()
+trim()
+length()
+startsWith()
+endsWith()
+chatAt()
+
+
+<h5>charAt() method</h5>
+Returns char at the given index
+
+String s = "Database";
+sout(s.charAt(3));  //a
+char ch = s1.charAt(0); //D
+
+**charAt() is a very useful method since we don't have a method to read a character in Java**
+Through charAt(0)
+
+
+Why does Strings have so many classes?
+Strings have 3 classes namely, String, StringBuffer and StringBuilder.
+Why 3 and not 1?
+String is an immutable class - cannot be modified
+Whereas StringBuilder and StringBuffer are mutable
+Why are there 2 mutable classes?
+In order to achieve thread safety we have 2 classes, out of which, StringBuffer is thread safe while StringBuilder is not thread safe
+StringBuffer is a legacy (old) class while StringBuilder is not thread safe
+Sometimes we don’t want Thread safety all the time because sometimes we need performance, and thread safety hinders the performance
+What is thread safety?
+When you have thread safety, all the threads come under or flow an order and the have to execute one after the other (synchronisation basically)
+Eg: Thread safety is needed in Transactions and there we can go for StringBuffer
+Otherwise if not thread safely is not important then use StringBuilder
