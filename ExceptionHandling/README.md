@@ -150,9 +150,3 @@ Checked or Compile-time Exceptions:
 
 Unchecked or Runtime Exceptions:
 1. ArrayOutOfBoundsException
-
-
-
-
-
-<h2>How To Create User-Defined Exceptions</h2>
