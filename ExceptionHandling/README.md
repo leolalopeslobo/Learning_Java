@@ -107,3 +107,14 @@ InputMismatchException - is in java.util package
 <h4>Multiple and Nested Try Block</h4>
 Remember that minumum number of catches need to be equal to the number of try blocks, they can be more but the least that they can be is equal to the number of try blocks
 If not then I guess finally has to be present otherwise the try cannot exists since it will check of potential exceptions but then do not have a specified mechnism to to handle the exception.
+
+
+
+'finally' block: <br>
+- This can be followed by a catch or directly after try
+- 'finally' is a block that is going to **get executed always**
+**get executed always this means 'exception occured and handled', 'exception not occurred', 'exception occured but not handled'**
+
+
+How to identify program crash?
+When we see **Exception in thread "main" ......(Exception type).....**
