@@ -107,3 +107,44 @@ String s2 = "java"; //no object created, since already present in scp, only refe
 sout(s1==s2); //false
 sout(s1.equals(s2)); //true
 sout(s1.compareTo(s2)); //0
+
+
+<h5>+ Operator</h5>
+When '+' operator is given with at least one String, the concatenation takes place
+Eg:
+String s1 = "hello";
+String s2 = " java";
+String s3 = s1 + s2;
+sout(s3); //hello java
+
+also for "Sam" + 5 = "Sam5"
+
+But if both oprands are integers then it's a binary operation and normal addition takes place.
+
+<h6>How does the + operator actually works? How does these constants (strings) get added or concatenated?</h6>
+Behind the scene actually this happens,
+so whenever the + operator is involved, a new StringBuilder or StringBuffer comes into the picture,
+**new StringBuilder().append(s1).append(s1).toString();**
+new StringBuilder() - creates and empty string object, which is then appended by s1 and then s2 and then toString() to convert whole thing into a String so that it becomes immutable.
+
+So whenever there is a '+' operator a series of append() methods are called on a StringBuilder or StringBuffer empty object
+
+
+
+<h5>Substrings</h5>
+What is a Substring?
+A part or itself ois considered a Substring
+
+String s = "HELLO"
+s is actually indexed/offset with the starting index/offset of 0
+
+0 1 2 3 4
+H E L L O
+
+**substring()** method:
+s.substring(2); //since one value is given it is the start index
+s.substring(1,4); //since two values are given, one is the start index and the second is the end index
+Remember, the start index is always included and the end index is always excluded
+
+s.substring(2); //LLO -> starts from the start index and goes upto the end of the string
+s.substring(1,4); //ELL
