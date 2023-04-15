@@ -23,8 +23,8 @@ These streams can be of 2 data types
 
 
 Character Stream:
-This stream contains A-Z, a-z, 0-9, and all the special characters, basically all that belongs to the charset and anything that contains or a combination of the charset is a text stream.
-![image](https://user-images.githubusercontent.com/83197830/232187071-ca06077c-1662-4bee-9645-7f8f750bea9c.png)
+This stream contains A-Z, a-z, 0-9, and all the special characters, basically all that belongs to the charset and anything that contains or a combination of the charset is a text stream. <br>
+![image](https://user-images.githubusercontent.com/83197830/232187071-ca06077c-1662-4bee-9645-7f8f750bea9c.png) <br>
 It's deals with 16-bit since UNICODE is 16-bit
 
 
