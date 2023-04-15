@@ -187,3 +187,18 @@ What is thread safety?
 When you have thread safety, all the threads come under or flow an order and the have to execute one after the other (synchronisation basically)
 Eg: Thread safety is needed in Transactions and there we can go for StringBuffer
 Otherwise if not thread safely is not important then use StringBuilder
+
+ 
+**capacity() method in Java for both StringBuffer and StringBuilder**
+ Default size is 16
+ If the input exceeds 16, then it follows this capacity increase calculation - (16*2)+2 = 34
+ If still 34 isn't enough then it goes ahead repeat th eincrease capacity calculation - (34*2)+2 = 70
+ Hence its fulfills the capacity criteria then calculation will occur
+ In general,     **(oldCapacity*2)+2**
+ 
+ StringBuffer and StringBuilder have the same methods
+ 
+ 
+ StringsBuffer and StringBuilder can only be intantiated, NO literals involved
+ Strings can be intantiated and through literals
+ Even in StringBuffer and StringBuilder the literals will go to the SCP
