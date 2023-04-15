@@ -200,5 +200,5 @@ Otherwise if not thread safely is not important then use StringBuilder
  
  
  StringsBuffer and StringBuilder can only be intantiated, NO literals involved
- Strings can be intantiated and through literals
+ Strings can be intantiated and also created through literals
  Even in StringBuffer and StringBuilder the literals will go to the SCP
