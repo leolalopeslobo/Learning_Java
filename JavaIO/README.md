@@ -80,7 +80,13 @@ Writer class
 FileWriter class -> This class is used for writing to files.
 So by using FileWriter we can open a stream to a file and write to that file
 
+Remember, if already there exists a file with the same one as that you are creating, then the earlier file gets replaced (overwritten) with this one.
+
+**write() method**
+
 Input:
 Reader class
 FileReader class -> This class is used for reading from files.
 So by using FileReader we can open a stream to a file and read from that file
+
+**read() method** - this reads charcters an returns **int**
