@@ -1,4 +1,5 @@
 import java.sql.*;
+import java.util.Scanner;
 public class PSTDemo {
     public static void main(String[] args) throws Exception{
         DBConnection dbcon = new DBConnection();
@@ -9,13 +10,20 @@ public class PSTDemo {
         else
             System.out.println("Connection Failed");
         
-        
+        Scanner in = new Scanner(System.in);
         //Adding a new row by taking the data from user using Prepared Statement
         String q1 = "insert into cdac_java_web_programming.student values(?,?,?);";
+        System.out.print("Enter the sid: ");
+        int sid = in.nextInt();
+        System.out.print("Enter the sname: ");
+        String sname = in.next();
+        System.out.print("Enter the cgpa: ");
+        double cgpa = in.nextDouble();
+        
         PreparedStatement pst = con.prepareStatement(q1);
-        pst.setInt(1, 300);
-        pst.setString(2, "QWERTY");
-        pst.setDouble(3, 9.5);
+        pst.setInt(1, sid);
+        pst.setString(2, sname);
+        pst.setDouble(3, cgpa);
         
         int x = pst.executeUpdate(); //returns int
         if(x>0)
